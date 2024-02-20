@@ -1,0 +1,36 @@
+:root{
+    --color-success:#80ed99;
+    --color-danger:#a4161a;
+    --smallbox-color:#eeba0b;
+    --box-color:#ddb892;
+    --text-color:bisque;
+
+    /* padding */
+    --smallbox-pd:7px;
+    --box-pd:10px;}
+
+    body{
+        background:var(--color-danger);
+        color:var(--text-color)
+    }
+
+    
+
+    .box{
+        background-color:var(--box-color);
+        padding:var(--box-pd);
+        height:300px;
+        width:300px;
+        margin:20px;
+        
+    }
+
+    .smallbox{
+        background-color:var(--smallbox-color);
+        padding: var(--smallbox-pd);
+        height:100px;
+        width:100px;
+       
+    }
+
+    

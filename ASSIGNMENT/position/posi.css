@@ -1,0 +1,46 @@
+.position-for-all{
+    height:122vh;
+    width:75%;
+    border:3px solid red;
+    margin:15vh auto;
+    background-color: rgb(208, 137, 31);
+    font-size: 20px;
+}
+
+
+.fixedblack{
+height:255px;
+width:255px;
+background-color: black;
+position:fixed;
+right:2rem;
+color:white
+}
+
+.staticblue{
+    height:255px;
+    width:255px;
+    background-color: blue;
+    position:fixed;
+    justify-content: center;
+    margin:auto auto
+    }
+    
+
+.relativered{
+    position:relative;
+    left:17rem;
+    height:255px;
+    width:255px;
+    justify-content: center;
+    background-color: rgb(191, 38, 38);
+    position:relative;    }
+
+
+    .absolutechoco{
+        background-color:blueviolet;
+        position:absolute;
+        right:12rem;
+        height:255px;
+        width:255px;
+    }

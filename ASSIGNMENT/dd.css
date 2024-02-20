@@ -1,0 +1,101 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+/* Variable */
+:root {
+    /* FONT */
+    --FF: "nunito, san-serif";
+    --FS: 1.5rem;
+    --FS-XL: 3rem;
+
+    /* COLORS */
+    --BGCOLOR: rgb(196, 255, 209);
+    --ALT_BGCOLOR: blue;
+    --RADIAL-COLOR: whitesmoke;
+    --LIGHT-COLOR: antiquewhite;
+    --DARK-COLOR: #000;
+
+    /* SQUARE */
+    --SQUARE-BGCOLOR: papayawhip;
+    --SQUARE-SIZE: max(150px, 20vw);
+
+    /* GENERAL */
+    --PADDING: 0.5rem;
+    --SHADOWS: 0 6px 5px -5px var(--DARK-COLOR);
+    --BORDERS:2px solid var(--DARK-COLOR);
+}
+
+@media(prefers-color-scheme: dark) {
+    :root{
+        --BGCOLOR: rgb(0, 0, 0);
+        --ALT_BGCOLOR:#333;
+        --RADIAL-COLOR: rgb(217, 217, 217);
+        --SQUARE-BGCOLOR: rgb(202, 174, 202);
+    }
+}
+
+body {
+    font: var(--FF) var(--FS);
+    min-height: 100vh;
+    background-color: var(--BGCOLOR);
+    background-image: radial-gradient(var(--RADIAL-COLOR), var(--BGCOLOR));
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, footer {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    grid-template-columns: 100%;
+}
+
+header, footer {
+    position: sticky;
+    background-color: var(--ALT-BGCOLOR);
+}
+
+header {
+    top: 0;
+}
+
+nav {
+    background-color: var(--LIGHT-COLOR);
+    color: var(--DARK-COLOR);
+    padding: var(--PADDING);
+    border-bottom: var(--BORDERS);
+    box-shadow: var(--SHADOWS);
+}
+
+main {
+    flex-grow: 1;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: min(40vw, 15px);
+}
+
+footer {
+    bottom: 0;
+}
+
+.square--highlight {
+    --SQUARE-BGCOLOR: Cornflowerblue;
+}
+
+.square {
+    background-color: var(--SQUARE-BGCOLOR);
+    width: var(--SQUARE-SIZE);
+    height: var(--SQUARE-SIZE);
+    border: var(--BORDERS);
+    border-radius: 15px;
+    display: grid;
+    place-content: center;
+    font-size: var(--FS-XL);
+    box-shadow: var(--SHADOWS);
+}

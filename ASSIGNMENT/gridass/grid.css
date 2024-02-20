@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+}
+    
+.container{
+    height:auto;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width:200px;
+    height:200px;
+    background:green;
+    border-radius: 7px;
+    margin:40px;
+    box-shadow: 2rem;
+}
+
+img{
+    height:150px;
+    width:150px;
+    border-radius: 5%;
+    display:block;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  }
+
+  h4{
+    text-align: center;
+    color:white;
+  }
+
+  .box:hover{
+    background:white;
+    color:green;
+  }
+
+  H1{
+    text-align: center;
+    color: green;
+  }
+
+  span{
+    color:white;
+  }

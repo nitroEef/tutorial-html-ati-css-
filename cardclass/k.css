@@ -1,0 +1,31 @@
+:root{
+    --color-dark:#3deded;
+    --light-dark:#4f4f4f;
+    --lighter-dark:#6d6d6d;
+    --color
+          
+    display:flex;
+    align-items: center;
+    justify-items:center;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height:auto;
+    width:auto
+ }

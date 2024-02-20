@@ -1,0 +1,20 @@
+/* descedant selector */
+/* div p{
+    background-color: yellow;
+} */
+
+/* child selector */
+/* div > p{
+    background-color: rgb(255, 85, 0);
+} */
+
+/* adjacent sibling selector */
+
+/* div + p {
+    background-color: red;
+} */
+
+/* general sibling selector  */
+div ~ p{
+    background-color: yellow;
+}

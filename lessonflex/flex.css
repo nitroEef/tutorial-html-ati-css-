@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family:monospace;
+    height:100vh;
+    padding:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    max-width:800px;
+    height:400px;
+    gap:32px;
+
+}
+
+.box{
+    min-height:100px;
+    background-color: black;
+    font-size:2rem;
+    padding:0.5rem;
+    color:white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-width:100px;
+
+    
+}

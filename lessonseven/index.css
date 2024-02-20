@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(218, 110, 110);
+    color:whitesmoke;
+    background-image: url(mm.jpg);
+    background-image: repeat;
+}
+
+.box{
+    background-color: burlywood;
+    height: 200px;
+    width:200px;
+}
+
+.box2{
+    background-image: url(li.jpeg);
+    height: 200px;
+    width:200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.attachment{
+    height: 700px;;
+    width:auto;
+    background-image: url(/lessonseven/s.jpg);
+    background-attachment: fixed;
+}

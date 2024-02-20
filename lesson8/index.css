@@ -1,0 +1,37 @@
+/* PADDING */
+
+.box{
+    height: 300px;
+    width:750px;
+    /* padding for all */
+    padding:4px;
+    background-color: bisque;
+    color:black;
+    border:pink groove 13px
+}
+
+
+.container{
+    height:300px;
+    width:750px;
+    background-color: aqua;
+    border-radius: 11px 51px;
+}
+
+.container > div{
+width:45px;
+height:45px;
+margin:20px;
+}
+
+.box1{
+    background-color: brown;
+}
+.box2{
+    background-color: black;
+}
+
+.box3{
+    background-color: chocolate;
+}
+
