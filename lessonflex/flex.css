@@ -26,6 +26,7 @@ body{
 }
 
 .box{
+    width:232px;
     min-height:100px;
     background-color: black;
     font-size:2rem;
@@ -35,6 +36,6 @@ body{
     justify-content: center;
     align-items: center;
     min-width:100px;
-
+    flex-wrap: wrap;
     
 }
